@@ -1,0 +1,17 @@
+{
+  "name": "@SST-Deployment/core",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "sst bind vitest",
+    "typecheck": "tsc -noEmit"
+  },
+  "devDependencies": {
+    "vitest": "^4.1.9",
+    "@types/node": "^25.9.3",
+    "sst": "2.49.8"
+  },
+  "dependencies": {
+    "zod": "^4.4.3"
+  }
+}
